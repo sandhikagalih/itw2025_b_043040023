@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Layouting</title>
+    <style>
+      body {
+        height: 2000px;
+      }
+      h1 {
+        background-color: salmon;
+      }
+      p {
+        background-color: lightblue;
+      }
+      a {
+        background-color: limegreen;
+      }
+      .p3,
+      .p4 {
+        display: inline;
+      }
+      .p5 {
+        font-size: 60px;
+        font-family: arial;
+        color: green;
+      }
+
+      .p5 span {
+        color: red;
+      }
+
+      h2 {
+        background-color: salmon;
+        width: 300px;
+        height: 100px;
+      }
+      a {
+        width: 100px;
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        font-family: arial;
+        font-size: 12px;
+        transition: 1s;
+      }
+      a:hover {
+        background-color: black;
+        color: white;
+      }
+
+      img {
+        width: 100px;
+        filter: grayscale(100) blur(5px);
+        transition: 2s;
+      }
+
+      img:hover {
+        filter: grayscale(0);
+      }
+
+      .kotak1 {
+        background-color: lightblue;
+        width: 150px;
+        height: 100px;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <p>Sandhika Galih</p>
+    <a href="#">Home</a>
+    <a href="#">Product</a>
+    <div>
+      <p class="p3">paragraf 3</p>
+      <p class="p4">paragraf 4</p>
+    </div>
+    <hr />
+    <p class="p5">I<span>T</span>W</p>
+    <hr />
+
+    <h2>Teknik Informatika</h2>
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">Services</a>
+    <a href="#">About</a>
+    <img src="tree.png" alt="Pohon" />
+    <hr />
+
+    <div class="kotak1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati enim
+      nulla minima quod, ipsam mollitia iure perferendis nihil sequi aut
+      laboriosam culpa quo in sunt fugit earum maxime recusandae asperiores.
+    </div>
+  </body>
+</html>
